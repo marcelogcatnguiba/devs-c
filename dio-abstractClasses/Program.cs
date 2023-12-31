@@ -18,7 +18,7 @@ while (fluxo)
         break;
 
     var escolha = int.Parse(inicio);
-    if (escolha == 7)
+    if (escolha == 7 || escolha > 7)
         break;
 
     Smartphone nokia = new Nokia("nokia-1", "nova geracao", "12345", 8);
